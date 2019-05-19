@@ -1,0 +1,372 @@
+{
+	"number15":
+	[
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. Je réussis bien à ____________ du ski. ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. faire",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. aller",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. venir",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. Ma tante adore les fleurs ____________.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. blanches",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. blancs",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. blanc",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. En hiver je _______________ . ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. ne pas nage ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. pas ne nage ",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. ne nage pas",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "4. Elles font _____________ courses à pied.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. ses",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. leurs",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. une",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5. _____________ à temps!",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. Soyez",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Etes",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Ayez",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		}
+		
+		],
+	"intermediate": [
+		
+	],
+	"difficult": [
+		
+	]
+}

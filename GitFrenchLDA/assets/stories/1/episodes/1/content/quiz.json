@@ -1,0 +1,735 @@
+{
+	"nouns": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. Table",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",	
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. Craie",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. Dictionaire",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "4. Ordinateur portable",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5. Télévision",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "6. Ingénieur ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "7. Journal",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "8. Semaine ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "9. Devoirs",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+						"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "10. Professeur",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },				
+				"highlight": "0x151515",
+				"texts": [
+					{
+						"text": "i. Masculine",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Féminine",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Masculine or Féminine",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0x000000",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		}
+
+
+
+		],
+	"intermediate": [
+		
+	],
+	"difficult": [
+		
+	]
+}

@@ -1,0 +1,862 @@
+{
+	"articles": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. Quelle est __ date? ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. Quels sont __ mois de l'année? ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. Sur __ bureau, il y a un livre.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "4. __ étudiant est stagiaire. ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. Le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. La",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. L'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. Les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5. Voilà __ chaises des étudiants.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "6. Dans __ salle de classe, il y a des fenêtres. ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "7. C'est __ affiche de Mme Meunier.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "8. Levez __ doigt.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "9.Ouvrez votre livre à __ page 45.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "10. C'est__deux novembre.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. l'",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iv. les",
+						"position": {"x": 390, "y": 480},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		}
+
+		],
+	"intermediate": [
+		
+	],
+	"difficult": [
+		
+	]
+}

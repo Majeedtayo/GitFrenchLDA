@@ -1,0 +1,1423 @@
+{
+	"debugging": false,
+	"web_version": true,
+	"web_host": "http://letiarts.com/hellonurse/",
+	"orientation": "landscape",
+	"start_screen": "splash_vid",
+	"splash": {
+		"type": "Splash",
+		"next_screen": "loginreg",
+		"background": "splash_sponsors.png",
+		"progress": {
+			"bar": {
+				"color": "0xff0000",
+				"alpha": 1,
+				"width": 1280, "height": 5,
+				"position": {"x": 0, "y": 720}
+			},
+			"text": {
+				"style": {"font": "bold 32px Comic Sans MS", "align": "center", "fill": "#000000"},
+				"err_style": {"font": "bold 32px Comic Sans MS", "align": "center", "fill": "#ff0000"},
+				"position": {"x": 640, "y": 700}
+			}			
+		}
+	},
+	"splash_vid": {
+		"type": "SplashVideo",
+		"next_screen": "menu",
+		"video": "luminous.mp4",
+		"video_off": true,
+		"image": "luminous.png"
+	},
+	"preload": {
+		"image": "luminous.png"
+	},
+	"unlock": {
+		"type": "Unlock",
+		"codes": ["hellonurse", "malaria"],
+		"next_screen": "splash",
+		"background": "luminous.png",
+		"audio": "door-lock.mp3",
+		"title": {
+			"text": "",
+			"text_style": {"font": "bold 80px Forte", "fill": "#fdc70a"},		
+			"position": {"x": 620, "y": 170}
+		},
+       	"content_frame": {			
+			"radius": 20,
+			"color": "0xff0000",
+			"alpha": 0.6,
+			"width": 900,
+			"height": 600,
+			"position": {"x": 190, "y": 60}
+		},
+		"unlock_code_label": {
+			"hint": "Enter Code",
+			"position": {"x": 415, "y": 250},
+			"max_length": 8,
+			"width": 450, "height": 80,	
+			"text_style": {"font": "30px Comic Sans MS", "fill": "brown"},
+			"label_style": {"color": "0xffffff", "border": {"color": "0x000000", "thickness": 2,"radius":50}}
+		},
+		"exit_button": {
+			"image": "exit.png",
+			"visible": true,
+			"position": {"x": 20, "y": 20},
+			"width": 96, "height": 96
+		},
+		"unlock_button": {
+			"text": "Unlock",
+			"position": {"x": 500, "y": 460},
+			"type": "image",
+			"image": "menu_screen/enter.png",
+			"width": 240, "height": 70,	
+			"text_style": {"font": "30px Arial", "fill": "white"},
+			"button_style": {"color": "0x217821", "border": {"color": "0xffffff", "thickness": 1}}
+		}
+	},
+	"loginreg": {
+		"type": "Generic",
+		"screen_name": "Signup/Login",
+		"background": "loginreg.png",
+		"next_screen_if_logged_in": "login",
+		"audio": "",
+		"components": "",
+		"buttons": [
+			{
+				"next_screen": "select_mode",
+				"name": "Sign up",
+				"image": "signup_bt.png",
+				"width": 178, "height": 178,
+				"position": {"x": 180, "y": 450}
+			},
+			{
+				"next_screen": "login",
+				"name": "Login",
+				"image": "login_bt.png",
+				"width": 178, "height": 178,
+				"position": {"x": 405, "y": 450}
+			}
+		]
+	},
+	"login": {
+		"type": "Login",		
+		"background": "login.png",
+		"audio": "door-lock.mp3",
+		"title": {
+			"text": "Login",
+			"type": "text",
+			"image": "",
+			"text_style": {"font": "40px Arial", "fill": "#ffffff"},
+			"width": 103, "height": 47,	
+			"position": {"x": 380, "y": 85}
+		},
+       	"content_frame": {
+			
+			"radius": 20,
+			"color": "0x000000",
+			"alpha": 0.6,
+			"width": 900,
+			"height": 600,
+			"position": {"x": 190, "y": 60}
+		},
+		"nickname_field": {
+			"hint": "Username",
+			"position": {"x": 217, "y": 124},
+			"max_length": 8,
+			"width": 342, "height": 56,	
+			"text_style": {"font": "20px Arial", "fill": "#cccccc"},
+			"label_style": {"color": "0xffffff", "border": {"color": "0x000000", "thickness": 0,"radius":50}}
+		},
+		"other_login_fields": [
+			{
+				"name": "password",
+				"hint": "Password",
+				"position": {"x": 217, "y": 190},
+				"max_length": 8,
+				"width": 342, "height": 56,	
+				"text_style": {"font": "20px Arial", "fill": "#cccccc"},
+				"label_style": {"color": "0xffffff", "border": {"color": "0x000000", "thickness": 0,"radius":50}}
+			}
+		],
+		"exit_button": {
+			"image": "exit.png",
+			"visible": true,
+			"position": {"x": 20, "y": 20},
+			"width": 96, "height": 96
+		},
+		"login_button": {
+			"next_screen": "login_success",
+			"text": "Submit",
+			"position": {"x": 322, "y": 273},
+			"type": "button",
+			"image": "menu_screen/enter.png",
+			"width": 137, "height": 52,	
+			"text_style": {"font": "30px Arial", "fill": "white"},
+			"button_style": {"color": "0x330000", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"register_button": {
+			"next_screen": "select_mode",
+			"text": "I don't have an account. Sign Up",
+			"position": {"x": 229, "y": 340},
+			"type": "button",
+			"image": "menu_screen/signup.png",
+			"width": 316, "height": 29,
+			"text_style": {"font": "28px Arial", "fill": "#ff0000"},
+			"button_style": {"color": "0xeeeeee", "border": {"color": "0xffffff", "thickness": 0}}
+		}
+	},
+	"login_success": {
+		"type": "Generic",
+		"screen_name": "Login Success",
+		"next_screen": "menu",
+		"background": "login_success.png",
+		"transition_delay": 1500
+	},
+	"menu": {
+		"background": "bg_overlay.png",
+		"components": "",
+		"audio": "",
+		"menu_item_width": 300,
+		"menu_item_height": 338,
+		"lockedDialog": {
+			"background": "modalbg.png",
+			"bg_scale": 1,
+			"offsetX": 0, "offsetY": 0,
+			"text_style": {
+				"fontSize": 60,
+				"fontFamily": "Arial Black",
+                "color": "0xFEFF49",
+				"stroke": "0x000000",
+                "strokeThickness": 5,
+                "wordWrap": true,
+                "wordWrapWidth": 500,
+                "offsetY": 0,
+				"offsetX": 0
+			},
+			"close_button": {
+				"type": "image",
+				"image": "close.png",	
+				"image_scale": 0.33,
+				"text": "X",
+				"text_style": {
+					"fontSize": 42,
+					"color": "0xFEFF49"					
+				},
+				"offsetY": -130,
+				"offsetX": 240
+			}
+		},
+		"exitDialog": {
+			"background": "modalbg.png",
+			"bg_scale": 1,
+			"offsetX": 0, "offsetY": 0,
+			"exit_signout_button": {
+				"next_screen": "loginreg",
+				"type": "text",
+				"text": "Exit & Sign Out",
+				"text_style": {
+					"fontSize": 60,
+					"fontFamily": "Arial Black",
+	                "color": "0xFEFF49",					
+					"stroke": "0x000000",
+	                "strokeThickness": 5
+				},
+				"offsetY": -50,
+				"offsetX": 0				
+			},
+			"exit_button": {
+				"type": "text",
+				"text": "Exit",
+				"text_style": {
+					"fontSize": 60,
+					"fontFamily": "Arial Black",
+	                "color": "0xFEFF49",					
+					"stroke": "0x000000",
+	                "strokeThickness": 5
+				},
+				"offsetY": 50,
+				"offsetX": 0
+			},
+			"close_button": {
+				"type": "image",
+				"image": "close.png",	
+				"image_scale": 0.33,
+				"text": "X",
+				"text_style": {
+					"fontSize": 42,
+					"color": "0xFEFF49"					
+				},
+				"offsetY": -130,
+				"offsetX": 240
+			}
+		},
+		"badge":  {
+			"image": "badge-icon.png",
+			"position": {"x": 20, "y": 616},
+			"text_style": { "font": "bold 22pt Arial", "fill": "black" }
+		},
+		"settings_button": {
+			"image": "settings.png",
+			"position": {"x": 20, "y": 20},
+			"children": {
+				"sound_button": {
+					"on_image": "sound.png",
+					"off_image": "soundoff.png",
+					"position": {"x": 20, "y": 124}
+				},
+				"music_button": {
+					"on_image": "music.png",
+					"off_image": "musicoff.png",
+					"position": {"x": 20, "y": 228}
+				},
+				"edit_password_button": {
+					"image": "",
+					"position": {"x": 20, "y": 332}
+				}
+			}
+		},
+		"options_button": {
+			"image": "options.png",
+			"position": {"x": 1165, "y": 20},
+			"children": {
+				"info_button": {
+					"image": "info.png",
+					"position": {"x": 1165, "y": 124}
+				},
+				"exit_button": {
+					"image": "exit.png",
+					"position": {"x": 1165, "y": 228}
+				}					
+			}
+		},
+		"share_button": {
+			"image": "share.png",
+			"position": {
+				"x": 1165,
+				"y": 614
+			},
+			"children": {
+				"facebook_button": {
+					"image": "facebook.png",
+					"position": {
+						"x": 1165,
+						"y": 406
+					}
+				},
+				"twitter_button": {
+					"image": "twitter.png",
+					"position": {
+						"x": 1165,
+						"y": 510
+					}
+				}
+			},
+			"disabled": false
+		},
+		"submenu": {
+			"background": "bg2.png",
+			"components": "submenu",
+			"audio": "",
+			"menu_item_width": 300,
+			"menu_item_height": 338,
+			"back_button": {
+				"image": "home.png",
+				"position": {"x": 20, "y": 20},
+				"width": 96, "height": 96
+			}
+		}		
+	},	
+	"tutor_register": {
+		"type": "Register2",
+		"background": "background_1.png",
+		"audio": "door-lock.mp3",
+		"components": "nurse_student_components",
+		"nickname_field": {
+			"components": "nickname_field",
+			"label": {
+				"text": "Nickname",
+				"text_style": { "font": "30pt Arial bold", "fill": "#bdbebe", "stroke": "#ffffff", "strokeThickness": 0 },
+				"position": { "x": 260, "y": 290 },
+				"hint": true
+			},
+			"field": {
+				"max_length": 8,
+				"position": { "x": 140, "y": 280 },			
+				"width": 402, "height": 67,
+				"paddingLeft": 40,
+				"text_style": {
+					"font": "20pt Arial",
+					"fill": "#000000"
+				},
+				"background": {		
+					"type": "bgcolor",
+					"image": "textbox.png",
+					"bgcolor": {
+						"color": "0xffffff",
+						"border": {
+							"color": "0xFFFFFF",
+							"thickness": 1.5,
+							"radius": 50
+						}
+					}
+				}
+			},	
+			"next_button_position": {"x": 120, "y": 531},
+			"cancel_button_position": {"x": 342, "y": 531}
+		},
+		"hidden_register_fields": [
+			{
+				"name": "mode",
+				"value": "Nursing Tutor"
+			}
+		],
+		"other_register_fields": [
+			{
+				"components": "institution_field",
+				"fields": [
+					{
+						"name": "institution",
+						"label": {
+							"text": "Institution Code",
+							"text_style": { "font": "30pt Arial bold", "fill": "#cccccc", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 220, "y": 170 },
+							"hint": true
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { 
+								"required": true,
+								"in_list": [
+									"JHPIEGO", "LETI", "MTCOF", "MTCPM", "MTCTP", "MTCAS", "MTCDA", "MTCGO", "MTCDB", "MTCTS", 
+									"MTCJI", "MTCHH", "MTCTK", "NMTCMA", "NMTCKU", "NMTCBK", "NMTCTC", "NMTC", "NMTCCC", "NMTCKD", 
+									"NMTCKB", "NMTCTM", "NMTCKT", "NMTCSK", "CHNTCFM", "CHNTCTN", "CHNTCTK", "CHNTCSP", "CHNTCWN", 
+									"CHNTCTM", "CHNTCBO", "CHNTCNV", "CHNTCJI", "CHNTCHO", "CHNTCES", "PBMAT", "PBMPA", "PBMGS", 
+									"PBMBG", "PBMTU", "PBMNA", "PBMKK"
+								]
+							},
+							"position": { "x": 140, "y": 160 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					},
+					{
+						"name": "course",
+						"label": {
+							"text": "",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 270, "y": 260 }
+						},
+						"field": {
+							"type": "choice",					
+							"selection_count": 1,
+							"selection_indicator": {
+								"type": "image",
+								"highlight": { "color": "0x873a26", "alpha": 1 },
+								"image": "tick.png", "width": 64, "height": 64
+							},	
+							"choices": {
+								"type": "image",
+								"images": [
+									{
+										"image": "loginreg/comm_health_nursing.png",
+										"choice": "Community Health Nursing",
+										"width": 402, "height": 67,
+										"position": {"x": 140, "y": 305}
+									},
+									{
+										"image": "loginreg/reg_gen_nursing.png",
+										"choice": "Registered General Nursing",
+										"width": 402, "height": 67,
+										"position": {"x": 140, "y": 377}
+									},
+									{
+										"image": "loginreg/midwifery.png",
+										"choice": "Midwifery",
+										"width": 402, "height": 67,
+										"position": {"x": 140, "y": 449}
+									}
+								]
+							},
+							"validation": {
+								"required": true
+							}
+						}				
+					}
+				],					
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}
+			}, 
+			{
+				"name": "region",
+				"label": {
+					"text": "Region",
+					"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+					"position": { "x": 270, "y":120 }
+				},
+				"field": {
+					"type": "choice",					
+					"selection_count": 1,
+					"selection_indicator": {
+						"type": "image",
+						"highlight": { "color": "0xff0000", "alpha": 0.7 },
+						"image": "tick.png", "width": 64, "height": 64
+					},					
+					"choices": {
+						"type": "image",
+						"images": [
+							{
+								"image": "loginreg/Ashanti.png",
+								"choice": "Ashanti",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 180}
+							},
+							{
+								"image": "loginreg/Brong-Ahafo.png",
+								"choice": "Brong-Ahafo",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 180}
+							},
+							{
+								"image": "loginreg/Central.png",
+								"choice": "Central",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 250}
+							},
+							{
+								"image": "loginreg/Eastern.png",
+								"choice": "Eastern",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 250}
+							},
+							{
+								"image": "loginreg/Greater Accra.png",
+								"choice": "Greater Accra",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 320}
+							},
+							{
+								"image": "loginreg/Northern.png",
+								"choice": "Northern",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 320}
+							},
+							{
+								"image": "loginreg/Upper East.png",
+								"choice": "Upper East",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 390}
+							},
+							{
+								"image": "loginreg/Upper West.png",
+								"choice": "Upper West",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 390}
+							},
+							{
+								"image": "loginreg/Volta.png",
+								"choice": "Volta",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 460}
+							},
+							{
+								"image": "loginreg/Western.png",
+								"choice": "Western",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 460}
+							}
+						]
+					},
+					"validation": {
+						"required": true
+					}
+				},
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}					
+			},
+			{
+				"fields": [
+					{
+						"name": "password",
+						"hidden": true,
+						"label": {
+							"text": "Password",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 140, "y": 170 }
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { "required": true },
+							"position": { "x": 140, "y": 230 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					}, 
+					{
+						"name": "confirm_password",
+						"hidden": true,
+						"confirm": "password",
+						"label": {
+							"text": "Confirm Password",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 140, "y": 320 }
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { "required": true },
+							"position": { "x": 140, "y": 380 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					}
+				],	
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}
+			}
+		],	
+		"next_button": {
+			"text": "Next",
+			"position": {
+				"x": 450,
+				"y": 622
+			},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"register_button": {
+			"next_screen": "menu",
+			"text": "Register",
+			"position": {"x": 120, "y": 531},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"cancel_button": {
+			"next_screen": "loginreg",
+			"text": "Cancel",
+			"position": {
+				"x": 641,
+				"y": 622
+			},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		}
+	},
+	"student_register": {
+		"type": "Register2",
+		"background": "background_1.png",
+		"audio": "door-lock.mp3",
+		"components": "nurse_student_components",
+		"nickname_field": {
+			"components": "nickname_field",
+			"label": {
+				"text": "Nickname",
+				"text_style": { "font": "30pt Arial bold", "fill": "#bdbebe", "stroke": "#ffffff", "strokeThickness": 0 },
+				"position": { "x": 260, "y": 290 },
+				"hint": true
+			},
+			"field": {
+				"max_length": 8,
+				"position": { "x": 140, "y": 280 },			
+				"width": 402, "height": 67,
+				"paddingLeft": 40,
+				"text_style": {
+					"font": "20pt Arial",
+					"fill": "#000000"
+				},
+				"background": {		
+					"type": "bgcolor",
+					"image": "textbox.png",
+					"bgcolor": {
+						"color": "0xffffff",
+						"border": {
+							"color": "0xFFFFFF",
+							"thickness": 1.5,
+							"radius": 50
+						}
+					}
+				}
+			},	
+			"next_button_position": {"x": 120, "y": 531},
+			"cancel_button_position": {"x": 342, "y": 531}
+		},
+		"hidden_register_fields": [
+			{
+				"name": "mode",
+				"value": "Nursing Student"
+			}
+		],
+		"other_register_fields": [
+			{
+				"components": "institution_field",
+				"fields": [
+					{
+						"name": "institution",
+						"label": {
+							"text": "Institution Code",
+							"text_style": { "font": "30pt Arial bold", "fill": "#cccccc", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 220, "y": 170 },
+							"hint": true
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { 
+								"required": true,
+								"in_list": [
+									"JHPIEGO", "LETI", "MTCOF", "MTCPM", "MTCTP", "MTCAS", "MTCDA", "MTCGO", "MTCDB", "MTCTS", 
+									"MTCJI", "MTCHH", "MTCTK", "NMTCMA", "NMTCKU", "NMTCBK", "NMTCTC", "NMTC", "NMTCCC", "NMTCKD", 
+									"NMTCKB", "NMTCTM", "NMTCKT", "NMTCSK", "CHNTCFM", "CHNTCTN", "CHNTCTK", "CHNTCSP", "CHNTCWN", 
+									"CHNTCTM", "CHNTCBO", "CHNTCNV", "CHNTCJI", "CHNTCHO", "CHNTCES", "PBMAT", "PBMPA", "PBMGS", 
+									"PBMBG", "PBMTU", "PBMNA", "PBMKK"
+								]
+							},
+							"position": { "x": 140, "y": 160 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					},
+					{
+						"name": "course",
+						"label": {
+							"text": "",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 270, "y": 260 }
+						},
+						"field": {
+							"type": "choice",					
+							"selection_count": 1,
+							"selection_indicator": {
+								"type": "image",
+								"highlight": { "color": "0x873a26", "alpha": 1 },
+								"image": "tick.png", "width": 64, "height": 64
+							},	
+							"choices": {
+								"type": "image",
+								"images": [
+									{
+										"image": "loginreg/comm_health_nursing.png",
+										"choice": "Community Health Nursing",
+										"width": 402, "height": 67,
+										"position": {"x": 140, "y": 305}
+									},
+									{
+										"image": "loginreg/reg_gen_nursing.png",
+										"choice": "Registered General Nursing",
+										"width": 402, "height": 67,
+										"position": {"x": 140, "y": 377}
+									},
+									{
+										"image": "loginreg/midwifery.png",
+										"choice": "Midwifery",
+										"width": 402, "height": 67,
+										"position": {"x": 140, "y": 449}
+									}
+								]
+							},
+							"validation": {
+								"required": true
+							}
+						}				
+					}
+				],					
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}
+			},
+			{
+				"name": "region",
+				"label": {
+					"text": "Region",
+					"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+					"position": { "x": 270, "y":120 }
+				},
+				"field": {
+					"type": "choice",					
+					"selection_count": 1,
+					"selection_indicator": {
+						"type": "image",
+						"highlight": { "color": "0xff0000", "alpha": 0.7 },
+						"image": "tick.png", "width": 64, "height": 64
+					},					
+					"choices": {
+						"type": "image",
+						"images": [
+							{
+								"image": "loginreg/Ashanti.png",
+								"choice": "Ashanti",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 180}
+							},
+							{
+								"image": "loginreg/Brong-Ahafo.png",
+								"choice": "Brong-Ahafo",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 180}
+							},
+							{
+								"image": "loginreg/Central.png",
+								"choice": "Central",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 250}
+							},
+							{
+								"image": "loginreg/Eastern.png",
+								"choice": "Eastern",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 250}
+							},
+							{
+								"image": "loginreg/Greater Accra.png",
+								"choice": "Greater Accra",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 320}
+							},
+							{
+								"image": "loginreg/Northern.png",
+								"choice": "Northern",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 320}
+							},
+							{
+								"image": "loginreg/Upper East.png",
+								"choice": "Upper East",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 390}
+							},
+							{
+								"image": "loginreg/Upper West.png",
+								"choice": "Upper West",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 390}
+							},
+							{
+								"image": "loginreg/Volta.png",
+								"choice": "Volta",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 460}
+							},
+							{
+								"image": "loginreg/Western.png",
+								"choice": "Western",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 460}
+							}
+						]
+					},
+					"validation": {
+						"required": true
+					}
+				},
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}					
+			},
+			{
+				"fields": [
+					{
+						"name": "password",
+						"hidden": true,
+						"label": {
+							"text": "Password",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 140, "y": 170 }
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { "required": true },
+							"position": { "x": 140, "y": 230 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					}, 
+					{
+						"name": "confirm_password",
+						"hidden": true,
+						"confirm": "password",
+						"label": {
+							"text": "Confirm Password",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 140, "y": 320 }
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { "required": true },
+							"position": { "x": 140, "y": 380 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					}
+				],	
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}
+			}
+		],		
+		"next_button": {
+			"text": "Next",
+			"position": {
+				"x": 450,
+				"y": 622
+			},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"register_button": {
+			"next_screen": "menu",
+			"text": "Register",
+			"position": {"x": 120, "y": 531},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"cancel_button": {
+			"next_screen": "loginreg",
+			"text": "Cancel",
+			"position": {
+				"x": 641,
+				"y": 622
+			},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		}
+	},
+	"guest_register": {
+		"type": "Register2",
+		"background": "background_1.png",
+		"audio": "door-lock.mp3",
+		"components": "guest_components",
+		"nickname_field": {
+			"components": "nickname_field",
+			"label": {
+				"text": "Nickname",
+				"text_style": { "font": "30pt Arial bold", "fill": "#bdbebe", "stroke": "#ffffff", "strokeThickness": 0 },
+				"position": { "x": 260, "y": 290 },
+				"hint": true
+			},
+			"field": {
+				"max_length": 8,
+				"position": { "x": 140, "y": 280 },			
+				"width": 402, "height": 67,
+				"paddingLeft": 40,
+				"text_style": {
+					"font": "20pt Arial",
+					"fill": "#000000"
+				},
+				"background": {		
+					"type": "bgcolor",
+					"image": "textbox.png",
+					"bgcolor": {
+						"color": "0xffffff",
+						"border": {
+							"color": "0xFFFFFF",
+							"thickness": 1.5,
+							"radius": 50
+						}
+					}
+				}
+			},	
+			"next_button_position": {"x": 120, "y": 531},
+			"cancel_button_position": {"x": 342, "y": 531}
+		},
+		"hidden_register_fields": [
+			{
+				"name": "mode",
+				"value": "Guest Mode"
+			}
+		],
+		"other_register_fields": [
+			{
+				"name": "industry",
+				"label": {
+					"text": "Industry",
+					"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+					"position": { "x": 270, "y":110 }
+				},
+				"field": {
+					"type": "choice",					
+					"selection_count": 1,
+					"selection_indicator": {
+						"type": "image",
+						"highlight": { "color": "0xff0000", "alpha": 0.7 },
+						"image": "tick.png", "width": 64, "height": 64
+					},					
+					"choices": {
+						"type": "image",
+						"images": [
+							{
+								"image": "loginreg/accounting.png",
+								"choice": "Accounting",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 180}
+							},
+							{
+								"image": "loginreg/Health Care.png",
+								"choice": "Health Care",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 180}
+							},
+							{
+								"image": "loginreg/business.png",
+								"choice": "Business Services",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 250}
+							},
+							{
+								"image": "loginreg/Information Technology.png",
+								"choice": "Information Technology",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 250}
+							},
+							{
+								"image": "loginreg/Construction.png",
+								"choice": "Construction",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 320}
+							},
+							{
+								"image": "loginreg/Legal.png",
+								"choice": "Legal",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 320}
+							},
+							{
+								"image": "loginreg/Education.png",
+								"choice": "Education",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 390}
+							},
+							{
+								"image": "loginreg/Manufacturing.png",
+								"choice": "Manufacturing",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 390}
+							},
+							{
+								"image": "loginreg/Finance.png",
+								"choice": "Finance",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 460}
+							},
+							{
+								"image": "loginreg/Media.png",
+								"choice": "Media",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 460}
+							}
+						]
+					},
+					"validation": {
+						"required": true
+					}
+				},
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}						
+			},
+			{
+				"name": "region",
+				"label": {
+					"text": "Region",
+					"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+					"position": { "x": 270, "y":110 }
+				},
+				"field": {
+					"type": "choice",					
+					"selection_count": 1,
+					"selection_indicator": {
+						"type": "image",
+						"highlight": { "color": "0xff0000", "alpha": 0.7 },
+						"image": "tick.png", "width": 64, "height": 64
+					},					
+					"choices": {
+						"type": "image",
+						"images": [
+							{
+								"image": "loginreg/Ashanti.png",
+								"choice": "Ashanti",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 180}
+							},
+							{
+								"image": "loginreg/Brong-Ahafo.png",
+								"choice": "Brong-Ahafo",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 180}
+							},
+							{
+								"image": "loginreg/Central.png",
+								"choice": "Central",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 250}
+							},
+							{
+								"image": "loginreg/Eastern.png",
+								"choice": "Eastern",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 250}
+							},
+							{
+								"image": "loginreg/Greater Accra.png",
+								"choice": "Greater Accra",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 320}
+							},
+							{
+								"image": "loginreg/Northern.png",
+								"choice": "Northern",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 320}
+							},
+							{
+								"image": "loginreg/Upper East.png",
+								"choice": "Upper East",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 390}
+							},
+							{
+								"image": "loginreg/Upper West.png",
+								"choice": "Upper West",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 390}
+							},
+							{
+								"image": "loginreg/Volta.png",
+								"choice": "Volta",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 460}
+							},
+							{
+								"image": "loginreg/Western.png",
+								"choice": "Western",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 460}
+							}
+						]
+					},
+					"validation": {
+						"required": true
+					}
+				},
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}					
+			},
+			{
+				"name": "age",
+				"label": {
+					"text": "Age Range",
+					"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+					"position": { "x": 270, "y":110 }
+				},
+				"field": {
+					"type": "choice",					
+					"selection_count": 1,
+					"selection_indicator": {
+						"type": "image",
+						"highlight": { "color": "0xff0000", "alpha": 0.7 },
+						"image": "tick.png", "width": 64, "height": 64
+					},					
+					"choices": {
+						"type": "image",
+						"images": [
+							{
+								"image": "loginreg/Below 18.png",
+								"choice": "Below 18",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 180}
+							},
+							{
+								"image": "loginreg/18 - 24.png",
+								"choice": "18 - 24",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 180}
+							},
+							{
+								"image": "loginreg/25 - 34.png",
+								"choice": "25 - 34",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 250}
+							},
+							{
+								"image": "loginreg/35 - 45.png",
+								"choice": "35 - 45",
+								"width": 200, "height": 57,
+								"position": {"x": 345, "y": 250}
+							},
+							{
+								"image": "loginreg/Above 45.png",
+								"choice": "Above 45",
+								"width": 200, "height": 57,
+								"position": {"x": 135, "y": 320}
+							}
+						]
+					},
+					"validation": {
+						"required": true
+					}
+				},
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}						
+			},
+			{
+				"fields": [
+					{
+						"name": "password",
+						"hidden": true,
+						"label": {
+							"text": "Password",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 140, "y": 170 }
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { "required": true },
+							"position": { "x": 140, "y": 230 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					}, 
+					{
+						"name": "confirm_password",
+						"hidden": true,
+						"confirm": "password",
+						"label": {
+							"text": "Confirm Password",
+							"text_style": { "font": "30pt Arial bold", "fill": "#ffffff", "stroke": "#ffffff", "strokeThickness": 0 },
+							"position": { "x": 140, "y": 320 }
+						},
+						"field": {
+							"type": "text",
+							"max_length": 8,
+							"validation": { "required": true },
+							"position": { "x": 140, "y": 380 },			
+							"width": 402, "height": 67,
+							"paddingLeft": 40,
+							"text_style": {
+								"font": "20pt Arial",
+								"fill": "#000000"
+							},
+							"background": {		
+								"type": "bgcolor",
+								"image": "textbox.png",
+								"bgcolor": {
+									"color": "0xffffff",
+									"border": {
+										"color": "0xFFFFFF",
+										"thickness": 1.5,
+										"radius": 50
+									}
+								}
+							}
+						}
+					}
+				],	
+				"next_button_position": {"x": 120, "y": 531},
+				"cancel_button_position": {"x": 342, "y": 531}
+			}
+		],		
+		"next_button": {
+			"text": "Next",
+			"position": {
+				"x": 450,
+				"y": 622
+			},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"register_button": {
+			"next_screen": "menu",
+			"text": "Register",
+			"position": {"x": 120, "y": 531},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		},
+		"cancel_button": {
+			"next_screen": "loginreg",
+			"text": "Cancel",
+			"position": {
+				"x": 641,
+				"y": 622
+			},
+			"type": "button",
+			"image": "menu_screen/register.png",
+			"width": 221,
+			"height": 58,
+			"text_style": {"font": "bold 30px Arial", "fill": "#311102"},
+			"button_style": {"color": "0xffffff", "border": {"color": "0xffffff", "thickness": 0}}
+		}
+	},
+	"select_mode": {
+		"type": "Generic",
+		"screen_name": "Register Mode",
+		"background": "background_1.png",
+		"audio": "door-lock.mp3",
+		"components": "select_mode",
+		"buttons": [
+			{
+				"next_screen": "tutor_register",
+				"name": "Tutor Register",
+				"image": "ic_nursing_tutor.png",
+				"width": 195, "height": 200,
+				"position": {"x": 100, "y": 140}
+			},
+			{
+				"next_screen": "student_register",
+				"name": "Student Register",
+				"image": "ic_nursing_student.png",
+				"width": 195, "height": 200,
+				"position": {"x": 300, "y": 140}
+			},
+			{
+				"next_screen": "guest_register",
+				"name": "Guest Register",
+				"image": "ic_guest_mode.png",
+				"width": 195, "height": 200,
+				"position": {"x": 500, "y": 140}
+			}
+		]
+	}
+}

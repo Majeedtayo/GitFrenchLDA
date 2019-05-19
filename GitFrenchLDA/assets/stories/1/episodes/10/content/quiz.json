@@ -1,0 +1,732 @@
+{
+	"number10":
+	[
+				{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. Le touriste ____________ demande un renseignement. ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. le",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. la",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. lui",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. ____________ coûtent ces classeurs?",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. Qui",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Combien",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Combien",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. Avez-vous ____________ nos voisines?",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. rencontrez ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. rencontré ",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. recontrer",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "4.  ____________ peuvent acheter des billets à moitié prix.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. Sophie",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Sophie et moi",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Sophie et Charlotte",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5.  Nous ____________ sortis du theâtre à 8h.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. sommes",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. avons",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. allons",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "6. Paul va à Munich ____________ 3 jours.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. pour",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. depuis",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. pendant",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "7. Marc a attendu Marie et Sophie pendant une demi-heure.\nMarc les a ____________ pendant une demi-heure.",
+				"text_style": { "font": "26pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 130}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. attendu",
+						"position": {"x": 390, "y": 330},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. attendues",
+						"position": {"x": 390, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. attendus",
+						"position": {"x": 390, "y": 450},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "8. ____________ parliez français quand vous étiez petits.",
+				"text_style": { "font": "26pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i.Tu",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Nous",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Vous",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "9. Claire et Eric ____________ couchent vers 23h.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. se",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. ils",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. nous",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "10. Réunissons-____________devant l'église.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. vous",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. nous",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. se",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 290,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		}
+	
+		],
+	"intermediate": [
+		
+	],
+	"difficult": [
+		
+	]
+}

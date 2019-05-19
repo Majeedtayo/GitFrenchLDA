@@ -1,0 +1,733 @@
+{
+	"number16":  [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. un frère ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. a brother",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 200,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. a son",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 200,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. the sister",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 200,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. la voiture ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. a bicycle",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 200,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. the car ",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 200,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. the train",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 200,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. Je travaille toute la semaine. ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },
+				"highlight": "0x151515",				
+				"texts": [
+					{
+						"text": "i. I travel all week. ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 260,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. I work all week. ",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 260,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. I travel for business.",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 260,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. En été il fait chaud.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. In the summer it's hot. ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. In winter it's cold. ",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. In the east it's cold.",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 300,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5. Il fait du vélo.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. He makes sailboats. ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 260,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. He bicycles.",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. It's windy. ",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 248,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "6. Nous nous amusons toujours bien ensemble. ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },
+				"highlight": "0x151515",				
+				"texts": [
+					{
+						"text": "i. They are always a lot of fun. ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 420,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. The ensemble piece is always very funny.",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. We always have fun together.",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 420,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "7. Les enfants rendent la monnaie. ",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. The child gives back the money. ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 420,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. The children are spending a lot of money.",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 520,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. The children return the change.",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 420,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "8. Ils passent le weekend avec nous.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. They're stopping by on the weekend.",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. He's spending the weekend here.",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. They're spending the weekend with us.",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "9. Est-ce que vous emmenez vos parents en vacances?",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },	
+				"highlight": "0x151515",			
+				"texts": [
+					{
+						"text": "i. Are your parents going on vacation? ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Do your parents come along on vacation? ",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Do you take your parents on vacation? ",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "10. Isabelle la montre à son amie.",
+				"text_style": { "font": "30pt Century Gothic Bold", "fill": "white", "wordWrap": true, "wordWrapWidth": 720 },
+				"position": {"x": 390, "y": 200}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "21pt Papyrus", "fill": "white" },		
+				"highlight": "0x151515",		
+				"texts": [
+					{
+						"text": "i. Isabelle gives a friend a watch. ",
+						"position": {"x": 390, "y": 300},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "ii. Isabelle shows it to her girlfriend.",
+						"position": {"x": 390, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					},
+					{
+						"text": "iii. Isabelle shows her friend around",
+						"position": {"x": 390, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0x000000",
+							"width": 480,
+							"height": 66,
+							"alpha": 0,
+							"radius": 15
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.0,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "faceright.png",
+				"wrong_image": "facewrong.png",
+				"position": {"x": 850, "y": 0}
+			}
+		}
+
+		],
+	"intermediate": [
+		
+	],
+	"difficult": [
+		
+	]
+}
+
