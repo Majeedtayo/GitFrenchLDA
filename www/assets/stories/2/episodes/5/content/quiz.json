@@ -1,0 +1,1660 @@
+{
+	"quiz_1": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Did you take the antimalarial medicine you were given?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "YES",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "NO",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Did you take the medicine at the specified time and dosages?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "YES",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "NO",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Did you finish taking ALL the medicine as prescribed?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "YES",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "NO",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Did you vomit any of the medicine out?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "YES",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "NO",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Have you stayed outside either for social events or other activities during these two weeks?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "YES",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "NO",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		}
+	],
+	"quiz_2": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Pick the two (2) correct questions to ask.",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 400, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black",  "wordWrap": true, "wordWrapWidth": 500 },				
+				"texts": [
+					{
+						"text": "A. Ask about when was the last time she dewormed",
+						"position": {"x": 400, "y": 140},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Confirm her gestational age (Her Last menstrual period (LMP)",
+						"position": {"x": 400, "y": 260},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Ask about adherence to haematinic",
+						"position": {"x": 400, "y": 380},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Ask about the last administration of sulfadoxine-pyrimethamine (SP) for IPTp",
+						"position": {"x": 400, "y": 500},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 335, "y": 60},
+				"width": 650,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 626}
+			}
+		}
+	],
+	"quiz_3": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Your pregnant patient is in her 2nd Trimester (18 weeks), confirmed positive for malaria. What is the right treatment for her.",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 400, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black",  "wordWrap": true, "wordWrapWidth": 500 },				
+				"texts": [
+					{
+						"text": "A. Administer appropriate ACTs (Artesunate Amodiaquine (AA) or Artemether-Lumifantrine (AL)",
+						"position": {"x": 400, "y": 210},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 120,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Administer Oral Quinine or Quinine + Clindamycin",
+						"position": {"x": 400, "y": 350},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Ask patient to come for Sulfadoxine-Pyrimethamine (SP) for IPTp in 1 month (or next scheduled visit)",
+						"position": {"x": 400, "y": 450},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 120,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 335, "y": 60},
+				"width": 650,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 626}
+			}
+		}
+	],
+	"quiz_4": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Let’s play, TWO LIES, ONE TRUTH\nPick out the ONE TRUTH out of the following. \nKeep your eyes open or you’ll be tripped up by the TWO LIES",
+				"text_style": { "font": "bold 16pt Arial", "fill": "black", "align":"center", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 400, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "14pt Arial", "fill": "black",  "wordWrap": true, "wordWrapWidth": 500 },			
+				"texts": [
+					{
+						"text": "A. Commonly found antifungal ointments and creams will treat most types of ringworm",
+						"position": {"x": 400, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Most types of ringworm can be treated with antiseptic soap and/or bath disinfectants used consistently over a prescribed period.",
+						"position": {"x": 400, "y": 340},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Genuine oral antibiotics are required for the treatment of ringworm.",
+						"position": {"x": 400, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 100,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 335, "y": 60},
+				"width": 650,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 626}
+			}
+		}
+	],
+	"quiz_5": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Three (3) very important signs and symptoms of malaria in a child under 5 years are:\n\nA. Fever\nB. Vomiting\nC. Upper Respiratory Tract Infection",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 490},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 590
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 566}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "A child with fever and RDT negative MUST be treated for Malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "If an adult treated at the community level for malaria does not respond within 10 days repeat the dose",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 260},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 330},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "It is very important to Test, Treat and Track anyone suspected of malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 270},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 340},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "Treat Failure can be diagnosed at the community level",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "TRUE",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "FALSE",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		}
+	],
+	"quiz_6": [
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "1. What is the first thing to do for a child with fever over 38 degress celsius?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. Referred",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Sponged",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Given Paracetamol Suppository",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Given Artesunate Suppository",
+						"position": {"x": 450, "y": 430},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "2. If a baby with fever and convulsing is brought to your CHPS facility, do the following:",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 400 },				
+				"texts": [
+					{
+						"text": "A. Do not Touch",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Give First Aid & Refer",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Send away immediately to higher level facility to avoid wasting time",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 120,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Call for the Ambulance to transport child immediately",
+						"position": {"x": 450, "y": 500},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 610
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 596}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "3. If a baby with fever and convulsing is brought to your hospital, do the following:",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 400 },				
+				"texts": [
+					{
+						"text": "A. Do not Touch",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Sponge and give Anti-pyretic",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Send away immediately to higher level facility to avoid wasting time",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 120,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Call for the doctor to come and attend to child",
+						"position": {"x": 450, "y": 500},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "4. In what form should an anti-malarial be administered to a child.",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },				
+				"texts": [
+					{
+						"text": "A. Suppository",
+						"position": {"x": 450, "y": 250},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Tablet",
+						"position": {"x": 450, "y": 320},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Liquid",
+						"position": {"x": 450, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Powder",
+						"position": {"x": 450, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "5. Who diagnoses severe malaria?",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. CHO",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Mid-Wife",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Lab Technician ",
+						"position": {"x": 450, "y": 360},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Doctor",
+						"position": {"x": 450, "y": 430},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "6. Arrange the following referral procedure at the community level in the proper sequence: \n\n1. Inform patient about Referral\n2. Write Referral Note\n3. Reassure Patient & Relatives\n4. Accompany Patient to the Next Level",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black" },				
+				"texts": [
+					{
+						"text": "A. 1, 3, 2, 4",
+						"position": {"x": 380, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. 1, 2, 3, 4",
+						"position": {"x": 380, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. 2, 1, 3, 4",
+						"position": {"x": 380, "y": 530},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. 3, 1, 2, 4",
+						"position": {"x": 380, "y": 600},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 640
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 655}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "7. A pregnant woman with uncomplicated malaria...",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 420 },
+				"position": {"x": 450, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 400 },				
+				"texts": [
+					{
+						"text": "A. Is not a big deal",
+						"position": {"x": 450, "y": 220},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Is as serious as suffering from severe malaria",
+						"position": {"x": 450, "y": 290},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Can self-medicate at home",
+						"position": {"x": 450, "y": 390},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Can treat herself with SP",
+						"position": {"x": 450, "y": 460},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 420,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 435, "y": 60},
+				"width": 450,
+				"height": 540
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 628, "y": 526}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "8. Sulphadoxine Pyrimethamine...",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },				
+				"texts": [
+					{
+						"text": "A. It is the best treatment for malaria in a pregnant woman",
+						"position": {"x": 380, "y": 150},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Prevents malaria in the pregnant woman for 3 months",
+						"position": {"x": 380, "y": 250},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Clears malaria parasites from the liver and and placental site",
+						"position": {"x": 380, "y": 350},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. It is the most effective single dose malaria drug for pregnant woman",
+						"position": {"x": 380, "y": 450},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "9. List the 3 most important signs and symptoms of Severe Malaria",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },				
+				"texts": [
+					{
+						"text": "A. Continuous Fever, Cola Coloured Urine, Jaundice",
+						"position": {"x": 380, "y": 250},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. Body weakness, Good Appetite, Chills",
+						"position": {"x": 380, "y": 350},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. Fever, Loss of Appetite, Vomitting",
+						"position": {"x": 380, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. Jaundice, Good Appetite, Fever",
+						"position": {"x": 380, "y": 490},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 50,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 590}
+			}
+		},
+		{
+			"question": 
+			{
+				"type": "text",
+				"text": "10. Treatment Failure is suspected in a patient when the following are evident:",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },
+				"position": {"x": 380, "y": 80}
+			},
+			"choice": 
+			{
+				"type": "text",
+				"text_style": { "font": "20pt Arial", "fill": "black", "wordWrap": true, "wordWrapWidth": 520 },				
+				"texts": [
+					{
+						"text": "A. When the right ACT is taken, at the right, for the right period and malaria test still positive",
+						"position": {"x": 380, "y": 180},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 120,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "B. When there is fever, loss of appetite but malaria test negative",
+						"position": {"x": 380, "y": 320},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "C. When there is chills, general malaise and malaria test negative",
+						"position": {"x": 380, "y": 420},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					},
+					{
+						"text": "D. When there is rigor, body weakness and malaria test negative",
+						"position": {"x": 380, "y": 520},
+						"background": {
+							"type": "shape",
+							"shape": "round_rect",
+							"color": "0xfe4d2a", "paddingLeft": 20,
+							"width": 520,
+							"height": 80,
+							"alpha": 1,
+							"radius": 20
+						}
+					}
+				]
+			},
+			"background": {
+				"type": "shape",
+				"shape": "round_rect",
+				"color": "0xffffff",
+				"alpha": 0.8,
+				"radius": 20,
+				"position": {"x": 365, "y": 60},
+				"width": 550,
+				"height": 600
+			},
+			"result": {
+				"type": "image",
+				"correct_image": "../quiz/faceright.png",
+				"wrong_image": "../quiz/facewrong.png",
+				"position": {"x": 608, "y": 610}
+			}
+		}
+	]
+}

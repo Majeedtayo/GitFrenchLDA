@@ -1,0 +1,2067 @@
+{
+    "bag_icon_anim": [
+        {
+            "anim_type": "scale",
+            "scale_value": 0.9,
+            "duration": 300,
+            "delay": 1000,
+            "loop": -1,
+            "yoyo": true
+        }
+    ],
+    "progress_component": {
+        "progress_pages": ["1", "a0", "c2.1.1", "c3.2"],        
+        "progress_image": {
+            "image": "../000/red_liquid.png",
+            "alpha": 0.99,
+            "width": 335,
+            "height": 60,
+            "position": { "x": 230, "y": 471 }
+        },
+        "initial_value": 70,
+        "background": {
+            "type": "image",
+            "image": "../000/thermometer_background2.png",
+            "shape": "round_rect",
+            "radius": 20,
+            "alpha": 0.7,
+            "color": "0xffffff",
+            "width": 420,
+            "height": 100,
+            "position": { "x": 206, "y": 451 }
+        }
+    },
+	"universal_components": [
+        {
+            "name": "bag_icon",
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "hand_icon",
+            "image": "../000/hand-icon.png",
+            "type": "image",
+            "position": {
+                "x": 944,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        }    
+    ],
+    "component_bag_fill": [
+        {
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.7,
+            "color": "0x000000",
+            "position": {
+                "x": -1230,
+                "y": 50
+            },
+            "width": 1180,
+            "height": 620,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 50
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]            
+        },
+        {
+            "type": "text",
+            "text": "Adwoa, your bag will contain the things you may need on your rounds. Select 9 items into your bag.",
+            "style": {
+                "font": "bold 20pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 215,
+                "y": 80
+            }
+        }        
+    ],
+    "component_progress_menu": [
+        {
+            "image": "../000/overlay.png",
+            "type": "image",
+            "position": {
+                "x": 91,
+                "y": 63
+            },
+            "width": 1091,
+            "height": 567
+        },
+        {
+            "image": "../000/comm_button.png",
+            "type": "image",
+            "position": {
+                "x": 200,
+                "y": 178
+            },
+            "width": 112,
+            "height": 106
+        },        
+        {
+            "image": "../000/nurse.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 411
+            },
+            "width": 248,
+            "height": 309
+        },
+        {
+            "image": "../000/hello_nurse.png",
+            "type": "image",
+            "position": {
+                "x": 995,
+                "y": 15
+            },
+            "width": 270,
+            "height": 164
+        },
+        {
+            "image": "../000/prequiz_button.png",
+            "type": "image",
+            "position": {
+                "x": 792,
+                "y": 226
+            },
+            "width": 247,
+            "height": 68
+        },
+        {
+            "image": "../000/mainstory_inactivebutton.png",
+            "type": "image",
+            "position": {
+                "x": 792,
+                "y": 326
+            },
+            "width": 247,
+            "height": 68
+        },
+        {
+            "image": "../000/info_butttoninactive.png",
+            "type": "image",
+            "position": {
+                "x": 792,
+                "y": 426
+            },
+            "width": 247,
+            "height": 68
+        },
+        {
+            "type": "text",
+            "text": "Your Mission",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 314,
+                "y": 211
+            }
+        },
+        {
+            "type": "text",
+            "text": "A community visit focused on Malaria Education & Prevention. Do you accept your mission?",
+            "style": {
+                "font": "bold 17pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 413
+            },
+            "position": {
+                "x": 205,
+                "y": 319
+            }
+        }
+    ],
+    "component_decision": [
+        {
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.7,
+            "color": "0x000000",
+            "position": {
+                "x": -500,
+                "y": 0
+            },
+            "width": 900,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 185
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/burse_think_long.png",
+            "type": "spritesheet",
+            "frame_width": 186,
+            "frame_height": 439,
+            "width": 186,
+            "height": 439,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 980,
+                "y": 140
+            }
+        },
+        {
+            "image": "../000/thinking_bubble2.png",
+            "type": "image",
+            "position": {
+                "x": 1120,
+                "y": 100
+            },
+            "width": 150,
+            "height": 100,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 130
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                },
+                {
+                    "anim_type": "scale",
+                    "scale_value": 0.9,
+                    "duration": 300,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        }
+    ],
+    "component_bag_intro": [
+    	{
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "name": "overlay",
+            "image": "../000/overlay_decision.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 550
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "name": "title",
+            "type": "text",
+            "text": "Bag Check",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 414,
+                "y": 60
+            }
+        },
+        {
+            "name": "nurse",
+            "image": "../000/nurse_think_close.png",
+            "type": "spritesheet",
+            "frame_width": 417,
+            "frame_height": 708,
+            "width": 417,
+            "height": 708,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 1024,
+                "y": 40
+            }
+        }        
+    ],
+    "component_correct_bag_items": [
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "name": "overlay",
+            "image": "../000/overlay_decision.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 80
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "name": "title",
+            "type": "text",
+            "text": "Bag Check",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 414,
+                "y": 60
+            }
+        },
+        {
+            "type": "text",
+            "text": "The following are the correct items you need on the community visit.",
+            "style": {
+                "font": "25pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 149,
+                "y": 155
+            }
+        },
+        {
+            "name": "nurse",
+            "image": "../000/nurse_think_close.png",
+            "type": "spritesheet",
+            "frame_width": 417,
+            "frame_height": 708,
+            "width": 417,
+            "height": 708,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 1024,
+                "y": 40
+            }
+        },
+        {
+            "image": "../bag/correct/act_pack.png",
+            "type": "image",
+            "position": {
+                "x": 558,
+                "y": 510
+            }
+        },
+        {
+            "image": "../bag/correct/anti_pyretic.png",
+            "type": "image",
+            "position": {
+                "x": 558,
+                "y": 430
+            }
+        },
+        {
+            "image": "../bag/correct/hand_sanitizer.png",
+            "type": "image",
+            "position": {
+                "x": 558,
+                "y": 350
+            }
+        },
+        {
+            "image": "../bag/correct/itn.png",
+            "type": "image",
+            "position": {
+                "x": 558,
+                "y": 270
+            }
+        },
+        {
+            "image": "../bag/correct/malaria_flashcard.png",
+            "type": "image",
+            "position": {
+                "x": 145,
+                "y": 270
+            }
+        },
+        {
+            "image": "../bag/correct/paper_bag.png",
+            "type": "image",
+            "position": {
+                "x": 145,
+                "y": 350
+            }
+        },
+        {
+            "image": "../bag/correct/rdt_pack.png",
+            "type": "image",
+            "position": {
+                "x": 145,
+                "y": 430
+            }
+        },
+        {
+            "image": "../bag/correct/reporting_form.png",
+            "type": "image",
+            "position": {
+                "x": 145,
+                "y": 510
+            }
+        },
+        {
+            "image": "../bag/correct/thermometer.png",
+            "type": "image",
+            "position": {
+                "x": 145,
+                "y": 590
+            }
+        }        
+    ],
+    "component_bag_items_firstime": [
+    	{
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/overlay_decision.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 550
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Bag Items",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 384,
+                "y": 60
+            }
+        },
+        {
+            "image": "../000/nurse_think_close.png",
+            "type": "spritesheet",
+            "frame_width": 417,
+            "frame_height": 708,
+            "width": 417,
+            "height": 708,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 1024,
+                "y": 40
+            }
+        },
+        {
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 700
+            },
+            "width": 96,
+            "height": 96,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+	                    "x": 645,
+                        "y": 85
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/hello_nurse.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 500
+            },
+            "width": 138,
+            "height": 85,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                },
+                {
+                    "anim_type": "scale",
+                    "scale_value": 0.45,
+                    "duration": 500,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        },
+        {
+            "image": "../bag/act_bag.png",
+            "type": "image",
+            "position": {
+                "x": 298,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../bag/anti_pyretic_bag.png",
+            "type": "image",
+            "position": {
+                "x": 481,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+              {
+            "image": "../bag/bedsheet_bag.png",
+            "type": "image",
+            "position": {
+                "x": 656,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },  
+        {
+            "image": "../bag/thermometer_bag.png",
+            "type": "image",
+            "position": {
+                "x": 834,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },  
+        {
+            "image": "../bag/flashcard_bag.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../bag/itn_bag.png",
+            "type": "image",
+            "position": {
+                "x": 298,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../bag/rdt_bag.png",
+            "type": "image",
+            "position": {
+                "x": 476,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../bag/safety_bag.png",
+            "type": "image",
+            "position": {
+                "x": 654,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../bag/sanitizer_bag.png",
+            "type": "image",
+            "position": {
+                "x": 832,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_bag_items": [
+    	{
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/overlay_decision.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 550
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Bag Items",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 384,
+                "y": 60
+            }
+        },
+        {
+            "image": "../000/nurse_think_close.png",
+            "type": "spritesheet",
+            "frame_width": 417,
+            "frame_height": 708,
+            "width": 417,
+            "height": 708,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 1024,
+                "y": 40
+            }
+        },
+        {
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 700
+            },
+            "width": 96,
+            "height": 96,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+	                    "x": 645,
+                        "y": 85
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "name": "act_bag",
+            "image": "../bag/act_bag.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },
+        {
+            "name": "anti_pyretic_bag",
+            "image": "../bag/anti_pyretic_bag.png",
+            "type": "image",
+            "position": {
+                "x": 298,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },
+        {
+            "name": "bedsheet_bag",
+            "image": "../bag/bedsheet_bag.png",
+            "type": "image",
+            "position": {
+                "x": 476,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },  
+        {
+            "name": "thermometer_bag",
+            "image": "../bag/thermometer_bag.png",
+            "type": "image",
+            "position": {
+                "x": 654,
+                "y": 500
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 320
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },  
+        {
+            "name": "flashcard_bag",
+            "image": "../bag/flashcard_bag.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },
+        {
+            "name": "itn_bag",
+            "image": "../bag/itn_bag.png",
+            "type": "image",
+            "position": {
+                "x": 298,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },
+        {
+            "name": "rdt_bag",
+            "image": "../bag/rdt_bag.png",
+            "type": "image",
+            "position": {
+                "x": 476,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },
+        {
+            "name": "safety_bag",
+            "image": "../bag/safety_bag.png",
+            "type": "image",
+            "position": {
+                "x": 654,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        },
+        {
+            "name": "sanitizer_bag",
+            "image": "../bag/sanitizer_bag.png",
+            "type": "image",
+            "position": {
+                "x": 832,
+                "y": 600
+            },
+            "width": 138,
+            "height": 138,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 500
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true,
+                "choice": true
+            }
+        }
+    ],
+    "component_bag_item_loading": [
+    	{
+            "image": "../000/overlay_decision.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 550
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "text": "Loading Item",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 384,
+                "y": 60
+            }
+        },
+        {
+            "image": "../000/nurse_think_close.png",
+            "type": "spritesheet",
+            "frame_width": 417,
+            "frame_height": 708,
+            "width": 417,
+            "height": 708,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 1024,
+                "y": 40
+            }
+        },
+        {
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 645,
+                "y": 85
+            },
+            "width": 96,
+            "height": 96,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+	                    "x": 645,
+                        "y": 85
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "name": "loading_item",
+            "image": "[OVERRIDEN IN STORY JSON]",
+            "type": "spritesheet",
+            "frame_width": 284,
+            "frame_height": 284,
+            "width": 205,
+            "height": 205,
+            "start_pos": 0,
+            "stop_pos": 4,
+            "frames_1": [
+                0,1,2,3,4
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 1.3,
+            "loop": 0,
+            "position": {
+                "x": 454,
+                "y": 270
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 0.9,
+                    "duration": 300,
+                    "delay": 3000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        }
+    ],
+    "component_nurse_narrator": [
+        {
+            "image": "../000/nurse.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 411
+            },
+            "width": 248,
+            "height": 309
+        }
+    ],
+    "component_mission_fail": [
+        {
+            "image": "../000/fail_overlay.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 640
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "text": "MISSION FAILED - GAME OVER",
+            "style": {
+                "font": "bold 22pt Arial",
+                "fill": "white",
+                "align": "center",
+                "wordWrap": true,
+                "wordWrapWidth": 850
+            },
+            "position": {
+                "x": 434,
+                "y": 60
+            }
+        }
+    ],
+    "component_rdt_result": [
+        {
+            "image": "../000/label_test.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 550
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/results_nurse.png",
+            "type": "image",
+            "width": 369,
+            "height": 665,
+            "position": { "x": 924, "y": 54 }
+        },
+        {
+            "image": "../000/rdt-positive.png",
+            "type": "image",
+            "width": 486,
+            "height": 401,
+            "position": { "x": -730, "y": 250 },
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 550
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_decision_general": [
+    	{
+            "image": "../000/overlay_decision.png",
+            "type": "image",
+            "scale": 1.2,
+            "position": {
+                "x": -500,
+                "y": 40
+            },
+            "width": 944,
+            "height": 637,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 550
+                    },
+                    "duration": 300,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "name": "nurse_thinking",
+            "image": "../000/nurse_think_close.png",
+            "type": "image",
+            "width": 369,
+            "height": 665,
+            "position": { "x": 924, "y": 54 }
+        },
+        {
+            "name": "think_bubble",
+            "image": "../000/thinking_bubble2.png",
+            "type": "image",
+            "position": {
+                "x": 1120,
+                "y": 100
+            },
+            "width": 150,
+            "height": 100,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 130
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                },
+                {
+                    "anim_type": "scale",
+                    "scale_value": 0.9,
+                    "duration": 300,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        }
+    ],
+    "component_nurse_smile": [
+        {
+            "image": "../000/front_close.png",
+            "type": "image",
+            "width": 369,
+            "height": 665,
+            "position": {
+                "x": 924,
+                "y": 84
+            }
+        }
+    ],
+    "component_decision_general_plain": [
+    	{
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.2,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/nurse_think_close.png",
+            "type": "spritesheet",
+            "frame_width": 417,
+            "frame_height": 708,
+            "width": 369,
+            "height": 665,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 924,
+                "y": 54
+            }
+        },
+        {
+            "image": "../000/thinking_bubble2.png",
+            "type": "image",
+            "position": {
+                "x": 1120,
+                "y": 100
+            },
+            "width": 150,
+            "height": 100,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 130
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                },
+                {
+                    "anim_type": "scale",
+                    "scale_value": 0.9,
+                    "duration": 300,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        }
+    ],
+    "component_decision_no_nurse": [
+    	{
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.01,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/thinking_bubble2.png",
+            "type": "image",
+            "position": {
+                "x": 1120,
+                "y": 100
+            },
+            "width": 150,
+            "height": 100,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 130
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                },
+                {
+                    "anim_type": "scale",
+                    "scale_value": 0.9,
+                    "duration": 300,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        }
+    ],
+    "component_agya_atakora_setting": [
+        {
+            "image": "../000/agya_bg_2.png",
+            "type": "image",
+            "width": 1280,
+            "height": 720,
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "image": "../000/bench_sprite.png",
+            "type": "spritesheet",
+            "frame_width": 431,
+            "frame_height": 354,
+            "width": 378,
+            "height": 329,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                0,0,0,0,0,0,1,0,0,0,0
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 3,
+            "loop": -1,
+            "position": {
+                "x": 547,
+                "y": 283
+            }
+        },
+        {
+            "image": "../000/efia.png",
+            "type": "image",
+            "width": 132,
+            "height": 390,
+            "position": {
+                "x": 972,
+                "y": 190
+            }
+        },
+        {
+            "image": "../000/agya.png",
+            "type": "image",
+            "width": 512,
+            "height": 370,
+            "position": {
+                "x": 307,
+                "y": 299
+            }
+        },
+        {
+            "image": "../000/nurse2.png",
+            "type": "image",
+            "width": 129,
+            "height": 522,
+            "position": {
+                "x": 843,
+                "y": 175
+            }
+        }
+    ],
+    "component_screen_1": [
+        {
+            "image": "../000/flash_card_1.png",
+            "type": "image",
+            "position": {
+                "x": 106.5,
+                "y": 720
+            },
+			"width": 1067,
+            "height": 600,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 60
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_screen_2": [
+        {
+            "image": "../000/flash_card_2.png",
+            "type": "image",
+            "position": {
+                "x": 106.5,
+                "y": 60
+            },
+			"width": 1067,
+            "height": 600,
+            "animation": [
+                {
+                    "anim_type": "fadeIn",
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_screen_3": [
+        {
+            "image": "../000/flash_card_3.png",
+            "type": "image",
+            "position": {
+                "x": 106.5,
+                "y": 60
+            },
+			"width": 1067,
+            "height": 600,
+            "animation": [
+                {
+                    "anim_type": "fadeIn",
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_screen_4": [
+        {
+            "image": "../000/flash_card_4.png",
+            "type": "image",
+            "position": {
+                "x": 106.5,
+                "y": 60
+            },
+			"width": 1067,
+            "height": 600,
+            "animation": [
+                {
+                    "anim_type": "fadeIn",
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_screen_5": [
+        {
+            "image": "../000/flash_card_5.png",
+            "type": "image",
+            "position": {
+                "x": 106.5,
+                "y": 60
+            },
+			"width": 1067,
+            "height": 600,
+            "animation": [
+                {
+                    "anim_type": "fadeIn",
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_aunty_aku": [
+        {
+            "image": "../000/aku_room.png",
+            "type": "image",
+            "width": 1280,
+            "height": 720,
+            "position": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "image": "../000/fan_sprite.png",
+            "type": "spritesheet",
+            "frame_width": 204,
+            "frame_height": 233,
+            "width": 204,
+            "height": 233,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                0,1,2
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 10,
+            "loop": -1,
+            "position": {
+                "x": 27,
+                "y": 5
+            }
+        },
+        {
+            "image": "../000/aku.png",
+            "type": "image",
+            "width": 216,
+            "height": 688,
+            "position": {
+                "x": 293,
+                "y": 6
+            }
+        },
+        {
+            "image": "../000/nurse_back.png",
+            "type": "image",
+            "width": 280,
+            "height": 720,
+            "position": {
+                "x": 910,
+                "y": 2
+            }
+        }
+    ],
+    "component_clock": [
+        {
+            "image": "../000/clock.png",
+            "type": "image",
+            "width": 428,
+            "height": 421,
+            "position": {
+                "x": 1456,
+                "y": 149
+            },
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 426
+                    },
+                    "duration": 200,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "text": "15mins later...",
+            "style": {
+                "font": "bold 19pt Arial",
+                "fill": "black",
+                "align": "left"
+            },
+            "position": {
+                "x": 563,
+                "y": 720
+            },
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 404
+                    },
+                    "duration": 200,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_preg_nurse": [
+        {
+            "image": "../000/ama1.png",
+            "type": "image",
+            "width": 311,
+            "height": 720,
+            "position": {
+                "x": 359,
+                "y": 2
+            }
+        },
+        {
+            "image": "../000/nurse_close1.png",
+            "type": "image",
+            "width": 201,
+            "height": 720,
+            "position": {
+                "x": 950,
+                "y": 2
+            }
+        }
+    ],
+    "component_cba_nurse_kwesi": [
+        {
+            "image": "../000/nurse_cba.png",
+            "type": "image",
+            "width": 288,
+            "height": 720,
+            "position": {
+                "x": 134,
+                "y": 2
+            }
+        },
+        {
+            "image": "../000/cba1.png",
+            "type": "image",
+            "width": 306,
+            "height": 616,
+            "position": {
+                "x": 331,
+                "y": 101
+            }
+        },
+        {
+            "image": "../000/mother.png",
+            "type": "image",
+            "width": 377,
+            "height": 575,
+            "position": {
+                "x": 619,
+                "y": 124
+            }
+        },
+        {
+            "image": "../000/drug.png",
+            "type": "image",
+            "width": 96,
+            "height": 62,
+            "position": {
+                "x": 852,
+                "y": 477
+            }
+        },
+        {
+            "image": "../000/child.png",
+            "type": "image",
+            "width": 123,
+            "height": 360,
+            "position": {
+                "x": 702,
+                "y": 199
+            }
+        },
+        {
+            "image": "../000/bag.png",
+            "type": "image",
+            "width": 199,
+            "height": 194,
+            "position": {
+                "x": 488,
+                "y": 526
+            }
+        }
+    ]
+    
+    
+	
+}

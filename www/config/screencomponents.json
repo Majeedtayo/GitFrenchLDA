@@ -1,0 +1,570 @@
+{
+    "submenu": [
+        {
+            "image": "menu_screen/overlay_two.png",
+            "type": "image",
+            "position": {
+                "x": 29,
+                "y": 40
+            },
+            "width": 1235,
+            "height": 673
+        },
+        {
+            "image": "menu_screen/selectepisode.png",
+            "type": "image",
+            "position": {
+                "x": 490,
+                "y": 30
+            },
+            "height": 70,
+            "width": 300,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 30
+                    },
+                    "duration": 1500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 700,
+                "y": 510
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 480,
+                "y": 485
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 2000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 765,
+                "y": 480
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1500,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 430,
+                "y": 430
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1300,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 800,
+                "y": 430
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 417,
+                "y": 370
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 3400,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 825,
+                "y": 380
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 2000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 830,
+                "y": 320
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 520,
+                "y": 134
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1800,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 410,
+                "y": 320
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 3000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 410,
+                "y": 260
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1500,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 820,
+                "y": 255
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1450,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 800,
+                "y": 210
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 440,
+                "y": 210
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 2500,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 470,
+                "y": 166
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 2000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 550,
+                "y": 520
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1090,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 580,
+                "y": 540
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 3700,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 710,
+                "y": 129
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 500,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 765,
+                "y": 166
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 800,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 580,
+                "y": 112
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1050,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "stari.png",
+            "type": "image",
+            "position": {
+                "x": 650,
+                "y": 112
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 2.8,
+                    "duration": 200,
+                    "delay": 1050,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "menu_screen/leftarrow.png",
+            "type": "image",
+            "position": {
+                "x": 400,
+                "y": 600
+            },
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 600
+                    },
+                    "duration": 2500,
+                    "delay": 0,
+                    "loop": 3,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "menu_screen/rightarrow.png",
+            "type": "image",
+            "position": {
+                "x": 780,
+                "y": 600
+            },
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 720
+                    },
+                    "duration": 2500,
+                    "delay": 0,
+                    "loop": 3,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "menu_screen/rightcorner.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 524
+            }
+        },
+        {
+            "image": "menu_screen/leftcorner.png",
+            "type": "image",
+            "position": {
+                "x": 50,
+                "y": 524
+            }
+        }
+    ],
+    "select_mode": [
+        {
+            "shape": "rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 1,
+            "color": "0xfd8902",
+            "position": {
+                "x": 250,
+                "y": 20
+            },
+            "width": 300,
+            "height": 60
+        },
+        {
+            "type": "text",
+            "text": "Select Mode",
+            "style": {
+                "font": "bold 25pt Arial",
+                "fill": "white",
+                "align": "center"
+            },
+            "position": {
+                "x": 300,
+                "y": 40
+            }
+        }
+    ],
+    "nurse_student_components": [        
+        {
+            "image": "reg_bg.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 30
+            },
+            "width": 443,
+            "height": 500
+        },
+        {
+            "image": "student-header.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 30
+            },
+            "width": 443,
+            "height": 66
+        }
+    ],
+    "guest_components": [
+        {
+            "image": "reg_bg.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 30
+            },
+            "width": 443,
+            "height": 500
+        },
+        {
+            "image": "guest-header.png",
+            "type": "image",
+            "position": {
+                "x": 120,
+                "y": 30
+            },
+            "width": 443,
+            "height": 66
+        }
+    ],
+    "nickname_field": [
+        {
+            "image": "nickname_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 190,
+                "y": 220
+            }
+        }
+    ],
+    "institution_field": [
+        {
+            "image": "institution_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 100,
+                "y": 95
+            }
+        },
+        {
+            "image": "course_prompt.png",
+            "type": "image",
+            "position": {
+                "x": 240,
+                "y": 230
+            }
+        }
+    ]
+}

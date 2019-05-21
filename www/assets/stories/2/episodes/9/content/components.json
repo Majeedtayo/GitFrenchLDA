@@ -1,0 +1,711 @@
+{
+	"component_badge_earned": [
+        {
+            "image": "../000/nurse.png",
+            "type": "image",
+            "position": {
+                "x": 0,
+                "y": 411
+            },
+            "width": 248,
+            "height": 309
+        },
+        {
+            "image": "../000/next_bt.png",
+            "type": "image",
+            "width": 64,
+            "height": 64,
+            "position": {"x": 675, "y": 900},
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 622
+                    },
+                    "duration": 500,
+                    "delay": 1600,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        }
+    ],
+	"component_1": [
+        {
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 720
+            },
+            "width": 1280,
+            "height": 480,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 385
+                    },
+                    "duration": 200,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        }
+    ],
+    "component_2": [    	
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+        {
+            "name": "pointer",
+            "image": "../000/pointer.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 648
+            },
+            "width": 100, "height": 45,
+            "animation": [
+            	{
+		            "anim_type": "translate",
+                    "location": {
+                        "x": 1080
+                    },
+		            "duration": 250,
+		            "delay": 0,
+		            "loop": -1,
+		            "yoyo": true
+		        }
+            ]
+        },
+        {
+            "image": "../000/next_bt.png",
+            "type": "image",
+            "position": {"x": 640, "y": 20},
+            "width": 64, "height": 64,
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        }
+    ],
+    "component_3": [    	
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+        {
+            "name": "pointer",
+            "image": "../000/pointer.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 338
+            },
+            "width": 100, "height": 45,
+            "animation": [
+            	{
+		            "anim_type": "translate",
+                    "location": {
+                        "x": 1080
+                    },
+		            "duration": 250,
+		            "delay": 0,
+		            "loop": -1,
+		            "yoyo": true
+		        }
+            ]
+        }
+    ],
+    "component_4": [    	
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+        {
+            "name": "pointer",
+            "image": "../000/pointer.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 441
+            },
+            "width": 100, "height": 45,
+            "animation": [
+            	{
+		            "anim_type": "translate",
+                    "location": {
+                        "x": 1080
+                    },
+		            "duration": 250,
+		            "delay": 0,
+		            "loop": -1,
+		            "yoyo": true
+		        }
+            ]
+        }
+    ],
+    "component_5": [    	
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+        {
+            "name": "pointer",
+            "image": "../000/pointer.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 542
+            },
+            "width": 100, "height": 45,
+            "animation": [
+            	{
+		            "anim_type": "translate",
+                    "location": {
+                        "x": 1080
+                    },
+		            "duration": 250,
+		            "delay": 0,
+		            "loop": -1,
+		            "yoyo": true
+		        }
+            ]
+        },
+        {
+            "image": "../000/next_bt.png",
+            "type": "image",
+            "position": {"x": 640, "y": 20},
+            "width": 64, "height": 64,
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        }
+    ],
+    "component_6": [
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+        {
+            "image": "../000/next_bt.png",
+            "type": "image",
+            "position": {"x": 640, "y": 20},
+            "width": 64, "height": 64,
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        }
+    ],
+    "component_7": [
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+    	{
+            "name": "bag_icon",
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "hand_icon",
+            "image": "../000/hand-icon.png",
+            "type": "image",
+            "position": {
+                "x": 944,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96,
+            "animation": [
+            	{
+		            "anim_type": "scale",
+		            "scale_value": 0.9,
+		            "duration": 300,
+		            "delay": 0,
+		            "loop": -1,
+		            "yoyo": true
+		        }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        }
+    ],
+    "component_7.1": [
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+    	{
+            "name": "bag_icon",
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "hand_icon",
+            "image": "../000/hand-icon.png",
+            "type": "image",
+            "position": {
+                "x": 944,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "image": "../000/next_bt.png",
+            "type": "image",
+            "position": {"x": 640, "y": 20},
+            "width": 64, "height": 64,
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        }
+    ],
+    "component_8": [
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+    	{
+            "name": "bag_icon",
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96,
+            "animation": [
+            	{
+		            "anim_type": "scale",
+		            "scale_value": 0.9,
+		            "duration": 300,
+		            "delay": 0,
+		            "loop": -1,
+		            "yoyo": true
+		        }
+            ],
+            "interactivity": {
+                "action": "click",
+                "audio": "",
+                "navigate": true
+            }
+        },
+        {
+            "name": "hand_icon",
+            "image": "../000/hand-icon.png",
+            "type": "image",
+            "position": {
+                "x": 944,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        }
+    ],
+    "component_9": [
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+    	{
+            "name": "bag_icon",
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "hand_icon",
+            "image": "../000/hand-icon.png",
+            "type": "image",
+            "position": {
+                "x": 944,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        }
+    ],
+    "component_10": [
+    	{
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+    	{
+            "name": "bag_icon",
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "hand_icon",
+            "image": "../000/hand-icon.png",
+            "type": "image",
+            "position": {
+                "x": 944,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "pointer",
+            "image": "../000/pointer_up.png",
+            "type": "image",
+            "position": {
+                "x": 33,
+                "y": 41
+            },
+            "width": 68, "height": 100,
+            "animation": [
+            	{
+		            "anim_type": "translate",
+                    "location": {
+                        "y": 61, "x": 13
+                    },
+		            "duration": 250,
+		            "delay": 0,
+		            "loop": -1,
+		            "yoyo": true
+		        }
+            ]
+        }
+    ],
+    "component_11": [
+        {
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.6,
+            "color": "0x000000",
+            "position": {
+                "x": 0,
+                "y": 385
+            },
+            "width": 1280,
+            "height": 480
+        },
+        {
+            "name": "bag_icon",
+            "image": "../000/bag-icon.png",
+            "type": "image",
+            "position": {
+                "x": 1050,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "hand_icon",
+            "image": "../000/hand-icon.png",
+            "type": "image",
+            "position": {
+                "x": 944,
+                "y": 614
+            },
+            "width": 96,
+            "height": 96
+        },
+        {
+            "name": "pointer",
+            "image": "../000/pointer_up.png",
+            "type": "image",
+            "position": {
+                "x": 271,
+                "y": 53
+            },
+            "width": 68, "height": 100,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 82, "x": 242
+                    },
+                    "duration": 250,
+                    "delay": 0,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        }
+    ],
+    "component_decision": [
+        {
+            "shape": "round_rect",
+            "type": "shape",
+            "radius": 20,
+            "alpha": 0.7,
+            "color": "0x000000",
+            "position": {
+                "x": -500,
+                "y": 0
+            },
+            "width": 900,
+            "height": 720,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "x": 185
+                    },
+                    "duration": 500,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                }
+            ]
+        },
+        {
+            "image": "../000/burse_think_long.png",
+            "type": "spritesheet",
+            "frame_width": 186,
+            "frame_height": 439,
+            "width": 186,
+            "height": 439,
+            "scale": 1,
+            "start_pos": 0,
+            "stop_pos": 1,
+            "frames_1": [
+                1
+            ],
+            "start": "auto",
+            "anim_name": "walk",
+            "fps": 5,
+            "loop": 0,
+            "position": {
+                "x": 980,
+                "y": 140
+            }
+        },
+        {
+            "image": "../000/thinking_bubble2.png",
+            "type": "image",
+            "position": {
+                "x": 1120,
+                "y": 100
+            },
+            "width": 150,
+            "height": 100,
+            "animation": [
+                {
+                    "anim_type": "translate",
+                    "location": {
+                        "y": 130
+                    },
+                    "duration": 400,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": false
+                },
+                {
+                    "anim_type": "scale",
+                    "scale_value": 0.9,
+                    "duration": 300,
+                    "delay": 1000,
+                    "loop": -1,
+                    "yoyo": true
+                }
+            ]
+        }
+    ],
+    "congrats_components": [
+        {
+            "image": "../000/congrats.png",
+            "type": "image",
+            "position": {
+                "x": 294,
+                "y": 153
+            }
+        },
+        {
+            "image": "../000/star.png",
+            "type": "image",
+            "position": {
+                "x": 443,
+                "y": 362
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 1.3,
+                    "duration": 150,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "../000/star.png",
+            "type": "image",
+            "position": {
+                "x": 583,
+                "y": 363
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 1.5,
+                    "duration": 150,
+                    "delay": 300,
+                    "loop": 0,
+                    "yoyo": true
+                }
+            ]
+        },
+        {
+            "image": "../000/star.png",
+            "type": "image",
+            "position": {
+                "x": 726,
+                "y": 364
+            },
+            "animation": [
+                {
+                    "anim_type": "scale",
+                    "scale_value": 1.3,
+                    "duration": 150,
+                    "delay": 0,
+                    "loop": 0,
+                    "yoyo": true
+                }
+            ]
+        }
+    ]
+}

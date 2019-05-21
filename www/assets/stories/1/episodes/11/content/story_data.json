@@ -1,0 +1,141 @@
+{
+    "first_page": "quiz1",
+    "pages": [
+              
+           {
+            "page": "quiz1",
+            "next_page": "again",
+            "type": "quiz",
+            "components": "",
+            "quiz": "number11",
+            "badges": [
+                {
+                    "metric": "score",
+                    "value": 10,
+                    "badge_id": 1,
+                    "style": "style_1"
+                },
+                {
+                    "metric": "completed",
+                    "value": 5,
+                    "badge_id": 2,
+                    "style": "style_1"
+                }
+            ],
+            "total_score": 10,
+            "points": [1,1,1,1,1,1,1,1,1,1],
+            "answers": [0,2,2,0,1,0,1,2,0,2],
+            "background": "bg2.jpg",
+            "audio_start": "",
+            "audio_end": "",
+            "result": {
+                "text_style": {"font": "28px Arial", "fill": "white"},
+                "background": {
+                    "type": "shape",
+                    "image": "bg_overlay.png",
+                    "shape": "round_rect",
+                    "color": "0x000000",
+                    "position": {"x": 240, "y": 60},
+                    "width": 800,
+                    "height": 600,
+                    "alpha": 0.8,
+                    "radius": 20
+                }
+            },
+            "transition": {
+                "transition_type": "manual",
+                "animation": "fade"
+            }
+        },
+
+ {
+            "page": "again",
+            "type": "decision",
+            "components": "",
+            "background": "../quiz1/bg2.png",
+            "audio": "",
+            "choice_indicator": {
+                "image": "../quiz1/blank.png",
+                "width": 200, "height": 200
+            },
+            "text": "Completed",
+            "text_style": {
+                        "font": "50pt Copperplate", "fill": "White", "align": "center", "stroke": "black",
+                "strokeThickness": 2
+                    },
+            "text_background": {
+                "type": "shape",
+                "image": "../quiz1/bg2.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 800,
+                "height": 60,
+                "position": {"x": 240, "y": 69},
+                "alpha": 0.0
+            },
+            "decisions": [
+                {
+                    "decision": "playagain",
+                    "text": "Play Again",
+                    "pic": "../quiz1/blank.png",
+                    "text_style": {
+                        "font": "30pt Century Gothic Bold", "fill": "white", "align": "center"
+                    },
+                    "text_background": {
+                        "type": "shape",
+                        "image": "../quiz1/bg2.png",
+                        "shape": "rect",
+                        "radius": 20,
+                        "color": "0x151515",
+                        "padding": 20,
+                        "width": 600,
+                        "height": 87,
+                        "position": {"x": 338, "y": 220},
+                        "alpha": 0.8
+                    },
+                    "width": 612, "height": 87,
+                    "position": {"x": 338, "y": 220},
+                    "next_page": "quiz1"
+                },
+                {
+                    "decision": "exit",
+                    "badge": {
+                        "count": 2,
+                        "id": 4,
+                        "style": "style_1"
+                    },
+                    "text": "Exit Game",
+                    "pic": "../quiz1/blank.png",
+                    "text_style": {
+                        "font": "30pt Century Gothic Bold", "fill": "white", "align": "center"
+                    },
+                    "text_background": {
+                        "type": "shape",
+                        "image": "bg2.jpg",
+                        "shape": "rect",
+                        "radius": 20,
+                        "color": "0x151515",
+                        "padding": 20,
+                        "width": 600,
+                        "height": 90,
+                        "position": {"x": 338, "y": 420},
+                        "alpha": 0.8
+                    },
+                    "width": 846, "height": 90,
+                    "position": {"x": 338, "y": 420},
+                    "next_page": "quiz1"
+                }
+            ],
+            "navigate": true,
+            "transition": {
+                "transition_type": "manual",
+                "animation": "fade"
+            }
+        }
+        
+        
+        
+    ]
+}

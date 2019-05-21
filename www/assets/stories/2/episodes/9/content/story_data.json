@@ -1,0 +1,1140 @@
+{
+    "audio": "",
+    "first_page": "1",
+    "pages": [
+        {
+            "page": "1",
+            "next_page": "2",
+            "type": "dialogue",
+            "components": "component_1",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "next_page_button": {
+                "enabled": false
+            },
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "Welcome Adwoa. My name is nurse Evelyn. I know you are eager to get started saving lives. I will show you how to get around this game, so you can achieve your mission. Click the RED BUTTON to move to the next narration or dialogue.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 580
+                    },
+                    "text_position": {"x": 70, "y": 19},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 362, "y": 505},
+                        "width": 660, "height": 200,
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "Well done! This red button puts you in control of when the next narration or dialogue in a conversation appears. However the button only appears in MANUAL MODE. What is this you wonder? Move to the next narration. (TIP: Use the red arrow button)",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 610
+                    },
+                    "text_position": {"x": 77, "y": 16},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 362, "y": 505},
+                        "width": 690, "height": 200,
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "There are two ways to view content. AUTO MODE & MANUAL MODE. The slider at the bottom left is used to switch between automatic and manual reading. AUTO MODE (means AUTO ON) / MANUAL MODE (means AUTO OFF). Let's go on to the next step.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 610
+                    },
+                    "text_position": {"x": 75, "y": 17},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 362, "y": 505},
+                        "width": 690, "height": 200,
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "Now let's find out what the following in-game buttons do...",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 68, "y": 35},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "This is the menu button. Press this to bring up menu items",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 59, "y": 36},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "components": "component_2",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566}
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "2",
+            "next_page": "3",
+            "type": "dialogue",
+            "components": "component_3",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "show_menu_items": true,
+            "next_page_button": {
+                "enabled": false
+            },
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "This button takes you back to the Episode selection screen",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 80, "y": 30},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566}
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "This button turns the game's music on and off",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 51, "y": 38},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "components": "component_4",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566}
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "This turns the game's sound effects on and off",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 49, "y": 36},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "village_house.mp3",
+                    "components": "component_5",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566}
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "3",
+            "next_page": "4",
+            "type": "dialogue",
+            "components": "component_6",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "next_page_button": {
+                "enabled": false
+            },
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "Let's go on to the next step.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 118, "y": 50},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "Now to the in-game buttons for completing actions with the game.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 77, "y": 31},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "4",
+            "next_page": "4.1",
+            "type": "dialogue",
+            "components": "component_7",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "next_page_button": {
+                "enabled": false
+            },
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "This icon prompts you to wash your hand before certain in-game activities",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 56, "y": 27},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "4.1",
+            "next_page": "5",
+            "type": "dialogue",
+            "components": "component_7.1",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "next_page_button": {
+                "enabled": false
+            },
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "Great Job!",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 205, "y": 47},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "5",
+            "next_page": "6",
+            "type": "dialogue",
+            "components": "component_8",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "next_page_button": {
+                "enabled": false
+            },
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "This icon prompts you to use things within your toolkit for prevention education, diagnosis and treatment of malaria.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 54, "y": 0},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "6",
+            "next_page": "1_badge",
+            "type": "dialogue",
+            "components": "component_9",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "next_page_button": {
+                "enabled": false
+            },
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "Great! Now to a part which should make your smile. How do you know how well you are doing?",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 65, "y": 17},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "This area shows your score. Each time you take a correct decision, get a quiz question correct, finish an activity, get a badge or reach an achievement, you get points!",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 520
+                    },
+                    "text_position": {"x": 67, "y": 11},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "components": "component_10",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 328, "y": 517},
+                        "width": 600, "height": 150,
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "Let's test it out. Click the Flashing Handwashing Icon to get 5 Points now!",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 420
+                    },
+                    "text_position": {"x": 74, "y": 20},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "components": "component_7",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "1_badge",
+            "next_page": "7",
+            "next_page_earned": "8",
+            "type": "page_redirect",            
+            "badge": 1,
+            "metric": "earned_badge"
+        },
+        {
+            "page": "7",
+            "next_page": "8",
+            "type": "narration2",     
+            "points": 5,
+            "badge": {
+                "metric": "visit",
+                "id": 1,
+                "animation": {"type": "slideDown", "duration": 500, "delay": 1000},
+                "style": "style_1"
+            },
+            "components": "component_badge_earned",
+            "next_button": {
+                "image": "narr_next.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 675, "y": 602}
+            }, 
+            "next_page_button": {
+                "enabled": false
+            },    
+            "text_style": {
+                "font": "29pt Arial", "fill": "white", "align": "center", "stroke": "orange",
+                "strokeThickness": 0
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "textbackground.jpg",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0x000000",
+                "padding": 20,
+                "width": 680,
+                "height": 370,
+                "position": {"x": 310, "y": 120},
+                "alpha": 0.0
+            },
+            "narration": {
+                "audio": "",
+                "text": []
+            },
+            "background": "../000/outside_hospital.png",
+            "background_pan": false,
+            "audio": "",
+            "transition": {
+                "transition_type": "manual",
+                "duration": 5000,
+                "animation": "fade"
+            }
+        },
+        {
+            "page": "8",
+            "next_page": "9",
+            "type": "dialogue",
+            "components": "component_9",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "Great! You've got 5 points.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 112, "y": 47},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "Just one more thing and we are ready for our community visit!",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 53, "y": 38},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 353, "y": 566},
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "This area shows your badges earned. At certain key points in each chapter, correct actions can earn you badges. You can show off your badges by sharing them.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 530
+                    },
+                    "text_position": {"x": 54, "y": 10},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "components": "component_11",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 334, "y": 543},
+                        "width": 590, "height": 150,
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                },
+                {
+                    "character": 1,
+                    "text": "On to the next (and last part of this). Let's learn something new. CLICK the GREEN BUTTON to move to the next screen.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 450
+                    },
+                    "text_position": {"x": 52, "y": 13},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "components": "component_9",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 361, "y": 530},
+                        "height": 150,
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "9",
+            "next_page": "congrats_page",
+            "story_end": true,
+            "type": "dialogue",
+            "components": "component_9",
+            "transition" : "fade",
+            "auto_transition": "false", 
+            "read_mode": "manual", 
+            "auto_read_mode_disabled": true,
+            "background": "../000/outside_hospital.png",
+            "audio": "backgroundsound1.mp3",
+            "next_button": {
+                "image": "../000/next_bt.png",
+                "width": 64,
+                "height": 64,
+                "position": {"x": 640, "y": 20}
+            },     
+            "text": "",
+            "text_style": {
+                "font": "bold 20pt Arial", "fill": "black", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0xffffff",
+                "padding": 20,
+                "width": 400,
+                "height": 158,
+                "position": {"x": 150, "y": 460},
+                "alpha": 0.8
+            },
+            "characters": [
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 4, "stop_pos": 0, "fps": 0, "width": 0, "height": 0, "loop": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 100, "y": 120}
+                },
+                {
+                    "char_pic": "blank.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},                 
+                    "char_scale": 1,
+                    "position": {"x": 800, "y": 120}
+                }
+            ],
+            "dialogues": [
+                {
+                    "character": 1,
+                    "text": "You've done it! GREEN means GO! The GREEN BUTTON moves you to a new scene after completing the narrations, dialogues, activities or tasks within one part of the story.",
+                    "text_style": {
+                        "font": "19pt Arial", "fill": "black", "align": "center", "width": 530
+                    },
+                    "text_position": {"x": 69, "y": 11},
+                    "pic": "",
+                    "char_pic": "matron.png",
+                    "frames": {"start_pos": 0, "stop_pos": 0, "fps": 0, "width": 0, "height": 0},
+                    "sound": "",
+                    "position": {"x": 125, "y": 420},
+                    "bubble": {
+                        "image": "bubble_chat1.png", "position": {"x": 339, "y": 547},
+                        "width": 590, "height": 150,
+                        "animation": {
+                            "type": "fadeIn",
+                            "duration": 500
+                        }
+                    },
+                    "char_scale": 1,   
+                    "bubble_text_scale": 1,
+                    "duration": 4
+                }
+            ],
+            "transition": {
+                "transition_type": "manual"
+            }
+        },
+        {
+            "page": "congrats_page",
+            "next_page": "endchapter",
+            "type": "blank",
+            "components": "congrats_components",
+            "background": "../000/congrats_bg.png",
+            "background_pan": false,
+            "audio": "success1.mp3",
+            "transition": {
+                "transition_type": "manual",
+                "duration": 5000,
+                "animation": "fade"
+            }
+        },
+        {
+            "page": "endchapter",
+            "story_end": true,
+            "type": "decision",
+            "components": "component_decision",
+            "background": "../000/outside_hospital.png",
+            "audio": "",
+            "choice_indicator": {
+                "image": "../000/tick.png",
+                "width": 200, "height": 200
+            },
+            "text": "CONGRATULATIONS! You've successfully completed the tutorial for Hello Nurse! Up next, your real mission, a visit to a community.",
+            "text_style": {
+                "font": "bold 18pt Arial", "fill": "white", "align": "center"
+            },
+            "text_background": {
+                "type": "shape",
+                "image": "../000/bubble_narr.png",
+                "shape": "round_rect",
+                "radius": 20,
+                "color": "0x3d3d3d",
+                "padding": 20,
+                "width": 800,
+                "height": 60,
+                "position": {"x": 240, "y": 20},
+                "alpha": 0.8
+            },
+            "decisions": [
+                {
+                    "decision": "next chapter",
+                    "text": "",
+                    "pic": "../000/next-chapter.png",
+                    "text_style": {
+                        "font": "bold 20pt Arial", "fill": "white", "align": "center"
+                    },
+                    "text_background": {
+                        "type": "shape",
+                        "image": "../000/bubble_narr.png",
+                        "shape": "rect",
+                        "radius": 20,
+                        "color": "0x7c0002",
+                        "padding": 20,
+                        "width": 400,
+                        "height": 40,
+                        "position": {"x": 450, "y": 323},
+                        "alpha": 0.0
+                    },
+                    "width": 400, "height": 225,
+                    "position": {"x": 450, "y": 200},
+                    "next_page": "nextchapter"
+                },
+                {
+                    "decision": "exit",
+                    "text": "",
+                    "pic": "../000/exit.png",
+                    "text_style": {
+                        "font": "bold 20pt Arial", "fill": "white", "align": "center"
+                    },
+                    "text_background": {
+                        "type": "shape",
+                        "image": "../000/bubble_narr.png",
+                        "shape": "rect",
+                        "radius": 20,
+                        "color": "0x7c0002",
+                        "padding": 20,
+                        "width": 400,
+                        "height": 40,
+                        "position": {"x": 450, "y": 626},
+                        "alpha": 0.0
+                    },
+                    "width": 400, "height": 225,
+                    "position": {"x": 450, "y": 453},
+                    "next_page": ""
+                }
+            ],
+            "navigate": true,
+            "transition": {
+                "transition_type": "manual",
+                "animation": "fade"
+            }
+        } 
+    ]
+}

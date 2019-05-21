@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "text": "Dawn of a New Era",
+        "image": "dawn of new era.png",
+        "action": "For starting the game and completing the first activity!",
+        "message": "It's always good to get the right start at a new challenge. You just did that. Now, on to victory!"
+    },
+    {
+        "id": 2,
+        "text": "Severe Diagnostician",
+        "image": "diagnosis.png",
+        "action": "For making a correct diagnosis of Severe Malaria",
+        "message": "Excellent!. Severe Malaria is life threatening and proper diagnosis and treatment avoids unfortunate complications. Lucky Kid! He's in very capable hands."
+    },
+    {
+        "id": 3,
+        "text": "Action Hero Nurse",
+        "image": "hero nurse.png",
+        "action": "For correctly treating Severe Malaria",
+        "message": "Wow! Like a sniper in an action movie, you kept a calm head, took aim at Severe Malaria and took it out, with three precise actions! Today, you saved a life."
+    },
+    {
+        "id": 4,
+        "text": "Respectful Healthcare",
+        "image": "respectful healthcare.png",
+        "action": "For being respectful to your patients",
+        "message": "Aha... It's such a relief for patients when they are attended to by a competent and respectful nurse. Thanks to you, the world will be a much better place for patients. KEEP IT UP!"
+    },
+    {
+        "id": 5,
+        "text": "Prudent Nurse",
+        "image": "prudent.png",
+        "action": "For taking no risks when diagnosing your patients",
+        "message": "Great Job. You take no risk with diagnosing your patients. Continue being prudent, as a nurse can never be too cautious when arriving at a diagnosis. Kudos!"
+    },
+    {
+        "id": 6,
+        "text": "Competent Nurse",
+        "image": "competent.png",
+        "action": "For being dedicated and hardworking",
+        "message": "Congratulations! You've proven yourself a very competent and trustworthy nurse. Being dedicated and hardworking can also lead to lot's opportunities for professional growth. Continue being an awesome nurse."
+    },
+    {
+        "id": 7,
+        "text": "Never Fail to Treat",
+        "image": "never fail to treat.png",
+        "action": "For making a correct diagnosis of Treatment Failure",
+        "message": "Yes! Failure is never a part of your nature even what you are attempting to diagnose is Treatment Failure. Great catch noticing that a patient's treatment may have failed. Good job!"
+    },
+    {
+        "id": 8,
+        "text": "Professional Upgrade: Midwife",
+        "image": "midwife upgrade.png",
+        "action": "For completing midwifery training",
+        "message": "We knew you wouldn't disappoint us. You can now treat pregnant women when they come to the clinic. Good job!"
+    },
+    {
+        "id": 9,
+        "text": "MIP Superstar",
+        "image": "mip.png",
+        "action": "For correctly diagnosing and treating Malaria in Pregnancy",
+        "message": "Excellent! You're great at diagnosing and treating Malaria in Pregnancy, recognizing the difference treatment options available at the different stages of pregnancy. For this we dub you a Malaria in Pregnancy (MIP) Superstar. Well Done!"
+    },
+    {
+        "id": 10,
+        "text": "HEALTH FACILITY NURSE",
+        "image": "health facility nurse.png",
+        "action": "For completing the Health Facility Scenario",
+        "message": "CONGRATULATIONS Nurse! You deserve this, go celebrate your hardwork!"
+    }
+]

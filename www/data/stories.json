@@ -1,0 +1,293 @@
+[
+    {
+        "id": 1,
+        "cover": "icon.png",
+        "description": "",
+        "name": "Episode 1",
+        "displayOrder": 1,
+        "episodes": [
+            {
+                "id": 1,
+                "content": "content.zip",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 1,
+                "description": "If you are into French, then you know GENDER is one of the basic things you can’t do without.\nTry to figure out the gender of the following French Nouns",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098494
+            },
+            {
+                "id": 2,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 2,
+                "description": "Test your knowlegde on French pronouns",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+            {
+                "id": 3,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 3,
+                "description": "Test your knowledge of the usage of the Verb Être 'to be'in the Present Tense",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+            {
+                 "id": 4,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 4,
+                "description": "Let's go a step further, complete the following sentences with the appropriate DEFINITE ARTICLES\nGive the correct form of the definite article",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 5,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 5,
+                "description": "Now introduce the nouns in the following sentences using suitable options given",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 6,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 6,
+                "description": "Now let's try answering these Random questions",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 7,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 7,
+                "description": "Select the verb form that best completes each of the sentences below",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 8,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 8,
+                "description": "Select the best French translation for each of the following English words",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 9,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 9,
+                "description": "Select the response that best completes each of the sentences below",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 10,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 10,
+                "description": "Test your knowledge with these general questions",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 11,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 11,
+                "description": "Select the verb form that best completes each of the sentences below",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 12,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 12,
+                "description": "Select the best French translation for each of the following English sentences",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 13,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 13,
+                "description": "Select the response that best completes each of the sentences below",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 14,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 14,
+                "description": "Select the verb form that best completes each of the sentences below",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 15,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 15,
+                "description": " Select the best English translation for each of the French words below",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            },
+             {
+                "id": 16,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 1,
+                "displayOrder": 16,
+                "description": "Test your knowledge of the usage of the Verb Être 'to be'in the Present Tense",
+                "name": "L'epreuve grammaire",
+                "available": true,
+                "unlockEpisodeId": 0,
+                "createdDateTimeStamp": 1441098537
+            }
+          
+        ],
+        "createdDateTimeStamp": 1441098372
+    },
+    {
+        "id": 2,
+        "cover": "icon.png",
+        "description": "Infected.",
+        "name": "Linkages description",
+        "displayOrder": 2,
+        "episodes": [
+            {
+                "id": 3,
+                "content": "content.zip",
+                "cover": "icon.png",
+                "storyId": 2,
+                "displayOrder": 1,
+                "description": "Kwesi has two months of 'freedom' as his partner Carlton is away in the US. Can he stay out of trouble and be a 'good boy'?",
+                "name": "Chapter 1: Infected",
+                "available": true,
+                "createdDateTimeStamp": 1441098494
+            },
+            {
+                "id": 4,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 2,
+                "displayOrder": 2,
+                "description": "Kwesi must decide who he is? Someone who shys away from difficult life decisions or faces up to the truth with hope.",
+                "name": "Chapter 2",
+                "available": true,
+                "createdDateTimeStamp": 1441098494
+            },
+            {
+                "id": 5,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 2,
+                "displayOrder": 3,
+                "unlockEpisodeId": 4,
+                "description": "Every path in life comes with its own unique challenges. Kwesi and Carlton must forge their own path in life.",
+                "name": "Chapter 3",
+                "available": true,
+                "createdDateTimeStamp": 1441098494
+            }
+        ],
+        "createdDateTimeStamp": 1441098372
+    },
+    {
+        "id": 3,
+        "cover": "icon.png",
+        "description": "Infected.",
+        "name": "Linkages description",
+        "displayOrder": 2,
+        "episodes": [
+            {
+                "id": 3,
+                "content": "content.zip",
+                "cover": "icon.png",
+                "storyId": 2,
+                "displayOrder": 1,
+                "description": "Kwesi has two months of 'freedom' as his partner Carlton is away in the US. Can he stay out of trouble and be a 'good boy'?",
+                "name": "Chapter 1: Infected",
+                "available": true,
+                "createdDateTimeStamp": 1441098494
+            },
+            {
+                "id": 4,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 2,
+                "displayOrder": 2,
+                "description": "Kwesi must decide who he is? Someone who shys away from difficult life decisions or faces up to the truth with hope.",
+                "name": "Chapter 2",
+                "available": true,
+                "createdDateTimeStamp": 1441098494
+            },
+            {
+                "id": 5,
+                "content": "",
+                "cover": "icon.png",
+                "storyId": 2,
+                "displayOrder": 3,
+                "unlockEpisodeId": 4,
+                "description": "Every path in life comes with its own unique challenges. Kwesi and Carlton must forge their own path in life.",
+                "name": "Chapter 3",
+                "available": true,
+                "createdDateTimeStamp": 1441098494
+            }
+        ],
+        "createdDateTimeStamp": 1441098372
+    }
+]
